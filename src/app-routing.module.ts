@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-
 import { HomePageComponent } from './app/shared/pages/home-page/home-page.component';
 import { AboutPageComponent } from './app/shared/pages/about-page/about-page.component';
 
