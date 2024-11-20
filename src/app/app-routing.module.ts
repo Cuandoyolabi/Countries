@@ -14,7 +14,7 @@ const routes: Routes = [
     component: AboutPageComponent
   },
   {
-    path: 'contact',
+    path: 'contactPage',
     component: ContactPageComponent
   },
   {
