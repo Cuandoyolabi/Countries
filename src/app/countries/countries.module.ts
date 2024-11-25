@@ -5,7 +5,6 @@ import { CommonModule } from '@angular/common';
 import { CountriesRoutingModule } from './countries-routing.module';
 import { SharedModule } from "../shared/shared.module";
 
-
 //Componentes
 import { ByCapitalPageComponent } from './pages/by-capital-page/by-capital-page.component';
 import { ByCountryPageComponent } from './pages/by-country-page/by-country-page.component';
