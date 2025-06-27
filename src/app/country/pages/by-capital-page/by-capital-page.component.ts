@@ -41,7 +41,7 @@ export class ByCapitalPageComponent {
       error: ( err ) => {
         this.isLoading.set(false)
         this.countries.set([])
-        this.isError.set(`No se encontro un pais con esa capital:  ${ query }`);
+        this.isError.set(err);
       }
     });
   }
