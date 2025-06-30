@@ -4,12 +4,12 @@
   (value)="query.set($event)"
 />
 
-<!--Country list
-@if (isError()){
-  <h3>{{ isError() }}</h3>
-} @else {
-  <country-list [countries]="countries()"/>
+<!--Country list-->
+@if (countryResources.error()){
+  <h3>{{ countryResources.error() }}</h3>
+} @if (countryResources.hasValue()) {
+  <country-list [countries]="countryResources.value()!" />
 }
--->
+
 
 
