@@ -11,6 +11,9 @@ const API_URL = 'https://restcountries.com/v3.1';
   providedIn: 'root'
 })
 export class CountryService {
+  searchByCapital(arg0: any): unknown {
+    throw new Error('Method not implemented.');
+  }
 
   private http = inject(HttpClient);
 
